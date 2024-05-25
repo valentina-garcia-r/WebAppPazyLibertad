@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(207, 81, 106);
+    
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+    color:  white;
+}
+
+a{
+    color: white;
+}
+
+#quienes-somos{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(207, 81, 106);
+}
+
+#servicios{
+    margin: 50px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#servicios div{
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+#servicios img{
+    width: 70%;
+}
+
+#como-llegar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+iframe{
+    border-radius: 20px;
+}
+
+#registro{
+    margin: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+
+#formulario{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}

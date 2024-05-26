@@ -15,3 +15,7 @@ Para ejecutar esta aplicación en tu máquina local, sigue estos pasos:
    ```bash
    git@github.com:valentina-garcia-r/WebAppPazyLibertad.git
 2. Levantar el Index.html con un servidor web o bien abriendo el archivo con un navegador.
+
+##Mockup de la pagina
+
+https://www.figma.com/design/BgOiTOGbH8v7F48k9bfSWj/Untitled?node-id=0-1&t=qu9WD2IbBcErcpbC-1

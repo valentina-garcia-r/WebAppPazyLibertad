@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: mina;
 }
 
 nav ul{
@@ -9,13 +10,16 @@ nav ul{
     text-decoration: none;
     background-color: rgb(207, 81, 106);
     margin: 0px;
-    
 }
+
 
 nav li {
     margin: 10px;
     list-style: none;
     color:  white;
+}
+nav li a {
+    text-decoration: none;
 }
 
 #formulario label, #formulario button{

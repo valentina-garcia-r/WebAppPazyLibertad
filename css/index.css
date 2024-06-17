@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'mina';
     width: 100%;
     padding: 0;
 }
@@ -148,7 +148,6 @@ ul.otros-servicios{
     align-items: center;
 }
 
-/****responsive****/
 body{
     width: 100%;
 }
@@ -189,5 +188,81 @@ nav{
 
     .menu:checked ~ ul.showing {
         display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    body, header, footer, section {
+        padding: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .menu:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #servicios, #otros-servicios, #registro, #como-llegar {
+        margin: 0;
+    }
+
+    #quienes-somos, #servicios, #otros-servicios, #registro, #como-llegar {
+        padding: 0;
+    }
+
+    #other_services {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0;
+        padding: 0;
+    }
+
+    #other_services img {
+        width: 100%;
+        height: auto;
+    }
+
+    #other_services li {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header, footer, section {
+        padding: 0;
+    }
+    
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    p, nav ul a {
+        font-size: 14px;
+    }
+
+    #formulario input[type="email"], #formulario input[type="name"], #formulario input[type="phone"], #formulario button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    h1, h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }

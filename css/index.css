@@ -1,12 +1,30 @@
 body {
     margin: 0;
-    font-family: mina;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 0;
+}
+
+.menu-icon{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1rem;
+} 
+
+.menu-icon span{
+    background-color: white;
+    border-radius: 2px;
+    height: 3px;
+    margin: 4px 0;
+    width: 25px;
 }
 
 nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     text-decoration: none;
     background-color: rgb(207, 81, 106);
     margin: 0px;
@@ -128,4 +146,44 @@ ul.otros-servicios{
     text-decoration: none;
     list-style: none;
     align-items: center;
+}
+
+/****responsive****/
+body{
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav{
+        background-color:rgb(207, 81, 106); ;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    ul.showing {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .menu:checked ~ ul {
+        display: flex;
+    }
+
+    .menu:checked ~ ul.showing {
+        display: none;
+    }
 }

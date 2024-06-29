@@ -1,3 +1,9 @@
+/*paleta de colores
+ rgb(207, 81, 106);
+ white(255,255,255)
+ rgb(0,0,0,0)
+*/
+
 body {
     margin: 0;
     font-family:'mina';
@@ -176,6 +182,12 @@ nav{
     margin: 50px;
 }
 
+.button{
+    border-radius: 20px;
+    background-color: rgb(207, 81, 106);
+    color:white;
+}
+
 @media (max-width: 768px) {
     body{
         width: 100%;
@@ -242,7 +254,7 @@ nav{
         font-size: 18px;
     }
 
-    
+
 
     
 }

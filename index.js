@@ -45,4 +45,21 @@ function validateEmail(){
 	alert('El correo no contiene el formato adecuado');
 		return false;
 	}
-} 
+};
+
+function validatePhone(){
+    var celField = document.getElementById('celular');
+    var validateCel = /^\(?(\d{3})\)?[-]?(\d{3})[-]?(\d{4})$/;
+
+    if(validateCel.test(celField.test)){
+        return true;
+	}else{
+	alert('El numero de celular no contiene el formato adecuado');
+		return false;
+	}
+};
+
+const validar = ()=>{
+    validateEmail();
+    validatePhone()
+};

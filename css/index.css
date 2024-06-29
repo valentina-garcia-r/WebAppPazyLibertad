@@ -159,6 +159,22 @@ nav{
     position: relative;
     width: 100%;
 }
+.lista-precios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+
+.lista-precios .product-specifications{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.service-category{
+    margin: 50px;
+}
 
 @media (max-width: 768px) {
     body{
@@ -189,6 +205,46 @@ nav{
     .menu:checked ~ ul.showing {
         display: none;
     }
+    
+    .como-llegar{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 40px !important;
+    }
+
+    .como-llegar .mapa{
+        width: 90%;
+        
+    }
+    .lista-precios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;}
+    
+    .lista-precios .product-specifications{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;      
+        
+    }
+
+
+    .service-category{
+        margin: 10px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    
+
+    
 }
 
 
